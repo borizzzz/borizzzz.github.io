@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Мой сайтик</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    html {
+        scroll-behavior: smooth}
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+<script type="text/javascript">
+ 
+$(function() {
+ 
+$(window).scroll(function() {
+ 
+if($(this).scrollTop() != 0) {
+ 
+$('#toTop').fadeIn();
+ 
+} else {
+ 
+$('#toTop').fadeOut();
+ 
+}
+ 
+});
+ 
+$('#toTop').click(function() {
+ 
+$('body,html').animate({scrollTop:0},800);
+ 
+});
+ 
+});
+ 
+</script>
+</head>
+<body>
+   <header>    
+     <a name="home"></a>
+      <div class="container">
+        <div class="heading clearfix">
+         <img src="img/logo.png" alt="logo" class="logo">
+         
+         <nav>
+           <ul class="menu">           
+                <li>
+                    <a href=#home>Домой</a>
+                </li>
+                <li>
+                    <a href=#services>Сервисы</a>
+                </li>
+                <li>
+                    <a href=#portfolio>Портфолио</a>
+                </li>
+                <li>
+                    <a href=#about>О сайте</a>
+                </li>
+                <li>
+                    <a href=#>Контакты</a>
+                </li>
+            </ul>
+             
+         </nav>
+         
+         <div class="titles">
+             <div class="titles_first">
+                МОЙ ПЕРВЫЙ САЙТИК
+             </div>
+                 <h1>
+                     Добро пожаловать!
+                 </h1>
+             </div>
+            <a class="button" href=#butt>Узнать больше</a>
+         </div>
+         </div> 
+                  
+    </header>
+     
+      <section>
+      <div class="container">
+         <div class="title">
+            <a name="services"></a>
+             <h2>Сервисы</h2>
+             <p> Здесь размещена моя первая страничка</p>
+         </div>  
+        </div>    
+        <div class="services">
+           
+            <div class="services_one">
+               <img src="img/icon1.png" alt="Услуга">
+               <h3>Сайты на заказ</h3>
+               <p>Proin iaculis purus consequat sem cure 
+digni ssim. Donec porttitora entum suscipit 
+aenean rhoncus posuere odio in tincidunt.</p>             
+            </div>
+             <div class="services_one">
+               <img src="img/icon2.png" alt="Ответственность">
+                <h3>Ответственность</h3>
+                   <p>Proin iaculis purus consequat sem cure 
+digni ssim. Donec porttitora entum suscipit 
+aenean rhoncus posuere odio in tincidunt.</p>             
+            </div>
+             <div class="services_one">
+                <img src="img/icon3.png" alt="Безо">
+                <h3>Безопасность</h3>
+                   <p>Proin iaculis purus consequat sem cure 
+digni ssim. Donec porttitora entum suscipit 
+aenean rhoncus posuere odio in tincidunt.</p> 
+            </div>
+        </div>     
+          
+   </section>
+   
+   <section id="portfolio">
+      <div class="container">
+         <div class="title">
+            <a name="#portfolio"></a>
+             <h2>Портфолио</h2>
+             <p> Здесь типо мое портфолио</p>
+         </div>  
+         <div class="works">
+             <img src="img/img1.jpg" alt="1" >
+             <img src="img/img2.jpg" alt="1" >
+             <img src="img/img3.jpg" alt="1" >
+         </div>
+          
+      </div>       
+   </section>
+   
+   <section>
+    <div class="container">   
+         <div class="title"> 
+            <a name="butt"></a>
+            <a name="about"></a>         
+             <h2>Обо мне</h2>
+             <p>Тут инфа типо обо мне</p>
+             <div class="main_about">
+             <div class="about_img1">
+                <div class="about_text1">               
+                    <h3>July 2010<br/>Our Humble Beginnings</h3>
+                     <p>Proin iaculis purus consequat sem cure 
+digni ssim. Donec porttitora entum suscipit 
+aenean rhoncus posuere odio in tincidunt. Proin 
+iaculis purus consequat sem cure digni 
+ssim. Donec porttitora entum suscipit.</p>
+                    </div>
+                     <img src="img/about1.jpg" alt="1">   
+                  </div>
+                  
+                  <div class="about_img2">
+                
+                     <img src="img/about2.jpg" alt="1"> 
+                     <div class="about_text2">               
+                    <h3>July 2010<br/>Our Humble Beginnings</h3>
+                     <p>Proin iaculis purus consequat sem cure 
+digni ssim. Donec porttitora entum suscipit 
+aenean rhoncus posuere odio in tincidunt. Proin 
+iaculis purus consequat sem cure digni 
+ssim. Donec porttitora entum suscipit.</p>
+                    </div>  
+                  </div>
+             </div>
+        </div>
+       </div>
+             
+                
+   </section>
+   
+   <footer>
+      <div class="container">
+          
+      </div>       
+   </footer>
+   <DIV ID = "toTop" > ^ Наверх </ DIV >
+</body>
+</html>
